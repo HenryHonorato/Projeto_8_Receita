@@ -16,3 +16,28 @@ body {
   border-radius: 24px;
   margin: 48px auto;
 }
+
+main {
+  box-sizing: border-box;
+  padding: 24px;
+}
+
+h1 {
+  margin-bottom: 4px;
+}
+
+#about p + p {
+  margin-top: 12px;
+}
+
+#ingredientes {
+  margin-top: 24px;
+}
+
+ul {
+  margin-top: 4px;
+}
+
+#modo-de-preparo {
+  margin-top: 24px;
+}
