@@ -1,3 +1,8 @@
+:root {
+  font-family: "Alice", serif;
+  line-height: 150%
+}
+
 body {
   background-image: url(/assets/bg-image.png);
   background-color: #573824;
@@ -24,6 +29,11 @@ main {
 
 h1 {
   margin-bottom: 4px;
+  color: #291B1A;
+}
+
+#about p {
+  color: #573A37;
 }
 
 #about p + p {
@@ -34,10 +44,24 @@ h1 {
   margin-top: 24px;
 }
 
+#ingredientes h2 {
+  color: #291B1A;
+}
+
 ul {
   margin-top: 4px;
+  color: #573A37;
 }
 
 #modo-de-preparo {
   margin-top: 24px;
+}
+
+#modo-de-preparo h2 {
+  color: #291B1A;
+  margin-bottom: 4px;
+}
+
+#modo-de-preparo p {
+  color: #573A37;
 }
